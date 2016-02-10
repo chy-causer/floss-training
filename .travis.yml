@@ -1,5 +1,5 @@
 install:
-  cpanm --quiet --notest Devel::Cover::Report::Coveralls Test::MockObject
+  cpanm --quiet --notest Devel::Cover::Report::Coveralls Test::MockObject Test::File Test::MockTime Test::NoWarnings
 language: perl
 perl:
   - "5.22"
