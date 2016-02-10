@@ -1,3 +1,0 @@
-#!/usr/bin/bash
-
-prove -Q --formatter TAP::Formatter::JUnit test.t > test.xml
