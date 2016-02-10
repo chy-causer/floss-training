@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+prove -Q --formatter TAP::Formatter::HTML test.t > test.html
